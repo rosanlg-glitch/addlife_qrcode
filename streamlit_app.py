@@ -8,7 +8,7 @@ from PIL import Image
 from label_generator import generate_label
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-DEFAULT_LOGO = os.path.join(HERE, "assets", "logo.png")
+DEFAULT_LOGO = os.path.join(HERE, "assets", "Logo.png")
 
 st.set_page_config(page_title="QR Label Generator", layout="centered")
 st.title("QR Label Generator")
